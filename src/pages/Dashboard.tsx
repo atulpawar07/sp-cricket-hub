@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { useAuth } from '@/contexts/AuthContext';
 import { Trophy, Users, Calendar, Target } from 'lucide-react';
 
-const Index = () => {
+const Dashboard = () => {
   const { user, loading, signOut } = useAuth();
   const navigate = useNavigate();
 
@@ -145,4 +145,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Dashboard;
